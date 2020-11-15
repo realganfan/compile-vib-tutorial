@@ -20,7 +20,7 @@ You'll get a new root shell if everything is OK.
 
 ## Copy folder tree to Docker
 1. `docker run --rm -it lamw/vibauthor`
-2. `scp -r <usrname>@172.17.0.1:/<vib-folder-on-host> <docker-folder>`, e.g. `scp -r root@172.17.0.1:/build/vib-8125-example ./vib-8125`
+2. `scp -r <usrname>@172.17.0.1:/<vib-folder-on-host> <docker-folder>`, e.g. `scp -r root@172.17.0.1:/build/vib-r8125-example ./vib-8125`
 
 ## Compile with vibauthor
 1. If you want vib only, just run:
