@@ -24,8 +24,8 @@ You'll get a new root shell if everything is OK.
 
 ## Compile with vibauthor
 1. If you want vib only, just run:
-vibauthor -C -t <your vib folder name>, e.g. `vibauthor -C -t ./vib-8125 --force` (--force means replace old file)
-The vib file will be created in ./vib-8125/ with automatic name.
+vibauthor -C -t <your vib folder name>, e.g. `vibauthor -C -t ./vib-8125 --force` (--force means replace old file). 
+ The vib file will be created in ./vib-8125/ with automatic name.
 
 2. If you want zip bundle, run:
 vibauthor -C -t <your vib folder name> -O <bundle-name>.zip, e.g. `vibauthor -C -t ./vib-8125 -O r8125-bundle.zip --force`
