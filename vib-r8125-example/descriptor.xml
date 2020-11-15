@@ -1,0 +1,47 @@
+<vib version="5.0">
+  <type>bootbank</type>
+  <name>net-r8125</name>
+  <version>9.004.01-1</version>
+  <vendor>Realtek</vendor>
+  <summary>Realtek 8125 driver for ESXI built by GanFan</summary>
+  <description>Recent driver for Realtek R8125. Based on official Realtek driver</description>
+  <release-date>2020-11-15T01:40:00+08:00</release-date>
+  <urls>
+    <url key="qq group">607022025</url>
+  </urls>
+  <relationships>
+    <depends>
+      <constraint name="vmkapi_2_3_0_0"/>
+      <constraint name="com.vmware.driverAPI-9.2.2.0"/>
+    </depends>
+	<conflicts>
+      <constraint name="net51-drivers"/>
+    </conflicts>
+    <replaces>
+      <constraint name="net55-r8125"/>
+    </replaces>
+    <provides/>
+    <compatibleWith/>
+  </relationships>
+  <software-tags>
+    <tag>driver</tag>
+    <tag>module</tag>
+  </software-tags>
+  <system-requires>
+    <maintenance-mode>true</maintenance-mode>
+  </system-requires>
+  <file-list>
+    <file>etc/vmware/driver.map.d/r8125.map</file>
+    <file>usr/lib/vmware/vmkmod/r8125</file>
+  </file-list>
+  <acceptance-level>community</acceptance-level>
+  <live-install-allowed>false</live-install-allowed>
+  <live-remove-allowed>false</live-remove-allowed>
+  <cimom-restart>false</cimom-restart>
+  <stateless-ready>true</stateless-ready>
+  <overlay>false</overlay>
+  <payloads>
+    <payload name="net-8125" type="tgz" >
+    </payload>
+  </payloads>
+</vib>

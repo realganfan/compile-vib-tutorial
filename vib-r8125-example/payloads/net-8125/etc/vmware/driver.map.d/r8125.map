@@ -1,0 +1,2 @@
+regtype=linux,bus=pci,id=10ec:8125 0000:0000,driver=r8125,class=network
+regtype=linux,bus=pci,id=10ec:3000 0000:0000,driver=r8125,class=network
